@@ -22,8 +22,7 @@
       <h1>
 <a id="nba-players-injury-analysis" class="anchor" href="#nba-players-injury-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>NBA Players Injury Analysis</h1>
 
-<p>Introduction
-The NBA has changed from the early 90's. Players seem stronger, bigger and faster. Rules like hand-checking no longer exist, the 3 pointer has become a key focus to winning a championship(Golden State Warriors in 2014-15). One thing common in the NBA from then and now is injuries.
+<p>The NBA has changed from the early 90's. Players seem stronger, bigger and faster. Rules like hand-checking no longer exist, the 3 pointer has become a key focus to winning a championship(Golden State Warriors in 2014-15). One thing common in the NBA from then and now is injuries.
 Injuries are detrimental to any team. When a Star Player gets injured the cost is not only potential wins but millions of dollars lost from injured players salaries and potential tickets sales. Fans don't want to pay for the price of admission to watch their star player on the bench in street clothes.</p>
 
 <p>Derrick Rose following MVP year sustains knee injury</p>
@@ -40,13 +39,13 @@ Injuries are detrimental to any team. When a Star Player gets injured the cost i
 
 <p><img src="https://github.com/amoskim25/NBA_Injury_Analysis/blob/master/final_capstone_copy/Images/Screen%20Shot%202016-10-27%20at%204.33.55%20PM.png?raw=True" alt="Kobe_injury"></p>
 
-<h1>
-<a id="goal" class="anchor" href="#goal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Goal</h1>
+<h2>
+<a id="goal" class="anchor" href="#goal" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Goal</h2>
 
 <p>Create a list of key features that attribute to high injury rates. To do this I will focus on games played for each player in a season and Average per game Player stats. This list will help provide the coaching staff with insights/indicators to focus on monitoring the health of a player based on their stats and adjust accordingly to maximize games played in a season.</p>
 
-<h1>
-<a id="data-gathering" class="anchor" href="#data-gathering" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Gathering</h1>
+<h2>
+<a id="data-gathering" class="anchor" href="#data-gathering" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data Gathering</h2>
 
 <p>Scrape Regular Season NBA stats from NBA.com.</p>
 
@@ -59,13 +58,13 @@ Injuries are detrimental to any team. When a Star Player gets injured the cost i
 <li>TEAM SCHEDULE GAME LOGS</li>
 </ul>
 
-<h1>
-<a id="approach" class="anchor" href="#approach" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Approach</h1>
+<h2>
+<a id="approach" class="anchor" href="#approach" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Approach</h2>
 
 <p>Divide the data into 3 separate blocks from 3 different eras. Each block consists of 5 years of NBA player data with attributes listed below. The target variable will be Games played per season. I want to analyze games played with the list of attributes using the following models: Linear Regression, Lasso, Ridge and Elastinet.</p>
 
-<h1>
-<a id="eda-exploratory-data-analysis" class="anchor" href="#eda-exploratory-data-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EDA: Exploratory data analysis</h1>
+<h2>
+<a id="eda-exploratory-data-analysis" class="anchor" href="#eda-exploratory-data-analysis" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>EDA: Exploratory data analysis</h2>
 
 <p>I originally started with 67 different possible attributes. I Removed redundant variables like shot selection beyond 25 feet since 3 point stats were already included. Also, I removed high correlated variables with the use of Seaborn's Heat map and Pairplot, narrowing down my attributes to 57.</p>
 
